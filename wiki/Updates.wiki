@@ -1,0 +1,10 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+This page lists recent changes to the library, minor fixes and updates which have been applied to the zip files included in the downloads.
+
+
+= Details =
+
+Applied a small fix to the string formatter which was calling the wrong string constructor. The string constructor String(const char *,...) takes formatted argements, so if you want a string which contains standard format and your not using arguments, you should call the overloaded String(char *, int) constructor so that the format is not processed.  This is exactly what happens in the constructor of the Formatter object.
