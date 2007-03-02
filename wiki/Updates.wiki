@@ -2,7 +2,7 @@
 
 = Introduction =
 
-This page lists recent changes to the library, minor fixes and updates which have been applied to the zip files included in the downloads.
+This page lists recent changes to the library, minor fixes and updates which have been applied to the zip files included in the downloads.  Major changes will result in a new version number, but i dont want to propagate version numbers in the early stages.
 
 
 = Details =
